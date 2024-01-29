@@ -25,7 +25,11 @@ Same for .bashrc if you're using bash.
 6. Run `symfony serve -d` and go to `localhost:8000`
 
 ### Usage  
-Launch the command 'symfony console GenerateEmbeddings' to generate the emmbeddings for the document of your choice in /public folder.  
+Launch the command  
+```
+symfony console GenerateEmbeddings
+```  
+to generate the emmbeddings for the document of your choice in /public folder.  
 It can take some times, you can change the number of words to generate in the command file.  Then you will have a result as a file in root project named 'documents-vectorStore.json' . 
 This file will be used with the question to generate the answer from OpenAI.
 
