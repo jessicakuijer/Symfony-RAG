@@ -22,7 +22,7 @@ export OPENAI_API_KEY=sk-XXXXXX
 if you're using zsh, you can add this line to your .zshrc file to make it permanent as well for your terminal sessions.  
 Same for .bashrc if you're using bash.
 
-6. Run `symfony serve-d` and go to `localhost:8000`
+6. Run `symfony serve -d` and go to `localhost:8000`
 
 ### Usage  
 Launch the command 'symfony console GenerateEmbeddings' to generate the emmbeddings for the document of your choice in /public folder.  
