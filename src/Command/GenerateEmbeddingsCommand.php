@@ -30,7 +30,7 @@ class GenerateEmbeddingsCommand extends Command
         $io->title(("Hello ! Nous allons générer les embeddings de vos données."));
 
         $io->section("Lecture des données");
-        $dataReader = new FileDataReader(__DIR__ . '/../../public/guide-bonnes-pratiques-numerique-responsable-export-version-v1.json');
+        $dataReader = new FileDataReader(__DIR__ . '/../../public/referentiel-general-ecoconception-version-v1.json');
         $documents = $dataReader->getDocuments();
         $io->success("Lecture des données terminée, et " . count($documents) . " documents ont été trouvés.");
 
